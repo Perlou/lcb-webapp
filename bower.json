@@ -1,0 +1,20 @@
+{
+  "name": "lcb-webapp",
+  "homepage": "https://github.com/Perlou/lcb-webapp",
+  "authors": [
+    "Perlou <a87387875@163.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}
