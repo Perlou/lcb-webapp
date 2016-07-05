@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/Perlou/lcb-webapp#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-less": "^3.1.0",
+    "gulp-livereload": "^3.8.1"
   }
 }
