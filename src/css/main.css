@@ -1,21 +1,22 @@
 /* 基本默认设置 */
+
 html {
-	font-size: 62.5%;
-	color: #222;
+    font-size: 62.5%;
+    color: #222;
 }
 
-::selection{
-	background-color: #b3d4fc;
-	text-shadow: none;
+::selection {
+    background-color: #b3d4fc;
+    text-shadow: none;
 }
 
 ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-	list-style: none;
+    list-style: none;
 }
 
 /* 工具样式 */
@@ -74,3 +75,94 @@ li {
 .clearfix:after {
     clear: both;
 }
+
+/* layout */
+
+body {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #0ae;
+    text-decoration: underline;
+}
+
+/* header */
+header {
+    width: 100%;
+}
+header .top {
+    line-height: 3rem;
+    padding: 0 1.5rem;
+    color: #fff;
+    background: #555;
+    border-bottom: 1px solid #ecc000;
+    font-size: 1rem;
+}
+header .top .tel {
+    float: left;
+}
+header .top ul {
+    text-align: right;
+}
+header .top li {
+    display: inline-block;
+}
+header .top ul li + li {
+    border-left: 1px solid #999;
+    margin-left: -3px;
+}
+header .top li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 1.5rem;
+}
+
+header .main {
+    padding: 0;
+}
+header .main .brand {
+    float: left;
+    padding: 1rem 1.5rem;
+}
+header .main ul {
+    text-align: right;
+}
+header .main li {
+    display: inline-block;
+    border-left: 1px solid #f0ede9;
+}
+header .main li a {
+    display: inline-block;
+    padding: 0 3rem;
+    line-height: 5.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #7c7a65;
+    text-decoration: none;
+}
+header .main li a:hover,
+header .main li a:active,
+header .main li a.active {
+    color: #ffb300;
+    background-color: #f8f6f1;
+}
+
+/* container */
+.container {
+    width: 100%;
+}
+/* footer */
+footer {
+    width: 100%;
+}
+
+
+
+
+
